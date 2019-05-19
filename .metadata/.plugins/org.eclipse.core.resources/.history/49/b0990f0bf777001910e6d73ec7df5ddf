@@ -1,0 +1,10 @@
+package challenge;
+
+import java.util.*;
+
+public class overlap {
+	public static void main(String[] args) {
+		int ran = (int) (Math.random() * 6) + 1;
+		System.out.println(ran);
+	}
+}

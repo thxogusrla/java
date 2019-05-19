@@ -1,0 +1,11 @@
+package challenge;
+
+import java.util.*;
+
+public class overlap {
+	public static void main(String[] args) {
+		Random ran = math.Random();
+		int value = (int) (ran * 6) + 1;
+
+	}
+}
