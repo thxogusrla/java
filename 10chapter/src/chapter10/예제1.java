@@ -24,7 +24,8 @@ public class 예제1 extends JFrame {
 		JButton btn = new JButton("Action");
 		btn.addActionListener(new MyActionListener1()); //Action이란 버튼에 액션 리스너를 달아주었다. 그래서 버튼을 누르면 actionlistener가 발생하게 된다.
 		c.add(btn);// 모든 작업이 끝난 btn은 컨텐트 펜에 붙여진다.
-		
+		c.add(new JLabel("김태현"));
+
 		setSize(350, 150);
 		setVisible(true);
 	}
